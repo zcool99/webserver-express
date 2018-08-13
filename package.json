@@ -15,3 +15,8 @@
     "hbs": "^4.0.1"
   }
 }
+
+
+//En script ponemos todas las instrucciones
+// que queremos poner para que arranque, se puso start y nodemon
+// se corren: node start o node run nodemon

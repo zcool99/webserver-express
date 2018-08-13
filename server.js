@@ -6,6 +6,7 @@ const hbs = require('hbs');
 
 require('./hbs/helpers');
 
+//se define puerto que da heroku o por defecto el 3000
 const port = process.env.PORT || 3000;
 
 //Permite dar a la carpeta y su contenido opcion de ser publica
@@ -36,7 +37,7 @@ app.get('/', function (req, res) {
 
 
 
-
+//Ponemos el port
 app.listen(port, () =>{
     console.log(`Escuchando peticiones en el puerto ${ port }`);
 });
